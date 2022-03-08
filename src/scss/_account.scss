@@ -1,0 +1,75 @@
+.account {
+    display: flex;
+    height: 100vh;
+
+    &_img {
+        background-image: url(../assets/main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    &_content {
+        margin-left: 100px;
+        margin-top: 68px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_title {
+        margin-top: 89px;
+        font-weight: 494;
+        font-size: 50px;
+        line-height: 56px;
+        color: #051655;
+        margin-bottom: 10px;
+    }
+
+		&_subtitle {
+			font-weight: 375;
+			font-size: 20px;
+			line-height: 22px;
+			color: #747887;
+			margin-bottom: 58px;
+		}
+
+		&_create {
+			font-weight: 494;
+			font-size: 20px;
+			line-height: 22px;
+			color: #fff;
+			padding: 18px 30px;
+			background: #EB3D35;
+			display: inline-flex;
+			align-items: center;
+			gap: 40px;
+			transition: all .4s ease-in;
+			max-width: fit-content;
+
+			&:hover {
+				background-color: #a50b03;
+				svg {
+						transition: all .4s ease-in-out;
+						transform: translate(10px, 0);
+				}
+			}
+		}
+}
+
+.account_sign {
+    margin-top: auto;
+    margin-bottom: 60px;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 20px;
+    color: #747887;
+
+    a {
+        font-weight: 494;
+        font-size: 20px;
+        line-height: 22px;
+        color: #C35B48;
+    }
+}

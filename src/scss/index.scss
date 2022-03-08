@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Serif:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import 'form';
+@import 'account';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #051655;
+}
+
