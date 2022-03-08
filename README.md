@@ -1,5 +1,3 @@
-### Стартовая сборка Webpack, с последующим улучшением
-
 ## Project setup
 ```
 npm install
